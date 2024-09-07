@@ -1,0 +1,62 @@
+/* body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav-toggle {
+    outline: none;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.active {
+    display: flex;
+} */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#hro{
+    width: 100%;
+}
+
+#nav-toggle {
+    outline: none;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.active {
+    display: flex;
+}
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 768px) {
+    #foot{
+        display: none;
+    }
+
+}
+
+/* Big smartphones (portrait) (ie: Galaxy 3 has 360)*/
+@media only screen and (max-width : 640px) {
+    #foot{
+        display: none;
+    }
+
+}
+
+/* Smartphones (portrait) (ie: Galaxy 1) */
+@media only screen and (max-width : 321px) {
+    #foot{
+        display: none;
+    }
+
+}
+
